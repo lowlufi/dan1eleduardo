@@ -1,2 +1,1 @@
-# dan1eleduardo
-Portafolio
+Este es un portafolio de Daniel Eduardo Aguilera Campusano
