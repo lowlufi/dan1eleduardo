@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
@@ -13,22 +11,22 @@ function App() {
           href="https://www.linkedin.com/in/danielaguileracampusano/"
           target="_blank"
         >
-          <img src="/linkedin.svg" className="logo" alt="LinkedIn logo" />
+          <img src="/linkedin.svg" className="logo " alt="LinkedIn logo" />
         </a>
         <a href="https://github.com/lowlufi" target="_blank">
-          <img src="/github.svg" className="logo react" alt="React logo" />
+          <img src="/github.svg" className="logo Github" alt="React logo" />
         </a>
       </div>
 
       <h1>Daniel Eduardo Aguilera Campusano</h1>
 
       <div className="card">
-        <p>
-          Ingeniero Informático con mención en Gestión de la Información y
+        <h2>
+          Ingeniero Informático con mención en Gestión de la Información &
           Licenciado en Ciencias de la Ingeniería
-        </p>
+        </h2>
         <p>
-          <code>Desarrollador Junior/</code>
+          <code>Desarrollador</code>
         </p>
 
         <button>
@@ -36,8 +34,8 @@ function App() {
             Descargar CV
           </a>
         </button>
+        <p className="email">aguileracampusanodaniel@gmail.com</p>
       </div>
-      <p className="read-the-docs">Click para descargar mi CV/</p>
     </>
   );
 }
