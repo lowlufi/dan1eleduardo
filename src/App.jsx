@@ -34,7 +34,6 @@ function App() {
             Descargar CV
           </a>
         </button>
-        <p className="email">aguileracampusanodaniel@gmail.com</p>
       </div>
     </>
   );

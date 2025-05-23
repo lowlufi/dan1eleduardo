@@ -7,6 +7,5 @@ import Proyectos from "./components/proyectos.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-    <Proyectos />
   </StrictMode>
 );
