@@ -12,7 +12,7 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.Github:hover {
-  filter: drop-shadow(0 0 2em hsla(240, 100%, 0%, 0.667));
+  filter: drop-shadow(0 0 2em hsla(0, 0%, 100%, 0.667));
 }
 
 @keyframes logo-spin {
@@ -69,5 +69,19 @@ code {
 @keyframes blink {
   50% {
     border-color: transparent;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  .p {
+    padding: 1rem;
   }
 }

@@ -6,7 +6,17 @@ function App() {
 
   return (
     <>
-      <div>
+      <h1>Daniel Eduardo Aguilera Campusano</h1>
+        <h2>Ingeniero Informático con mención en Gestión de la Información </h2>
+            <h3>Licenciado en Ciencias de la Ingeniería</h3>
+              <p><code>Desarrollador</code></p>
+            <button>
+          <a href="/Daniel_CV.pdf" target="_blank">
+            Descargar CV 
+          </a>
+        </button>
+    
+            <div>
         <a
           href="https://www.linkedin.com/in/danielaguileracampusano/"
           target="_blank"
@@ -16,24 +26,6 @@ function App() {
         <a href="https://github.com/lowlufi" target="_blank">
           <img src="/github.svg" className="logo Github" alt="React logo" />
         </a>
-      </div>
-
-      <h1>Daniel Eduardo Aguilera Campusano</h1>
-
-      <div className="card">
-        <h2>
-          Ingeniero Informático con mención en Gestión de la Información &
-          Licenciado en Ciencias de la Ingeniería
-        </h2>
-        <p>
-          <code>Desarrollador</code>
-        </p>
-
-        <button>
-          <a href="/Daniel_CV.pdf" target="_blank">
-            Descargar CV
-          </a>
-        </button>
       </div>
     </>
   );
