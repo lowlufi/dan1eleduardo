@@ -9,7 +9,7 @@ function App() {
       <h1>Daniel Eduardo Aguilera Campusano</h1>
         <h2>Ingeniero Informático con mención en Gestión de la Información </h2>
             <h3>Licenciado en Ciencias de la Ingeniería</h3>
-              <p><code>Desarrollador</code></p>
+              <p><code>Desarrollador de software</code></p>
             <button>
           <a href="/Daniel_CV.pdf" target="_blank">
             Descargar CV 
